@@ -1,7 +1,7 @@
 # SAP_Processor
 This project processes SAP extracted data for forecasting plant volumes and puts into more readable, smaller formats.
 
-There are two files in the project, one class to prepare file loading and naming, and the second the code to process the files.
+There are two files in the project, one class to prepare file loading and naming (filenamer.py), and the second the code to process the files (converter.py).
 
 The function 'txt_to_csv' of processor.py uses the txt extracted from SAP, removes tabs and creates a more readable csv output.
 
